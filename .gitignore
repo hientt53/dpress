@@ -1,0 +1,3 @@
+.env
+app/mysql/data
+app/wordpress
