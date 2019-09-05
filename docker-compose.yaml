@@ -20,7 +20,7 @@ services:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
     restart: always
   wordpress:
-    image: wordpress:4.9.6-php7.1-fpm-alpine
+    image: wordpress:5.2.2-php7.1-fpm-alpine
     volumes:
       - ./app/wordpress:/var/www/html
       - ./app/php/conf.d/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
